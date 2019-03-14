@@ -13,6 +13,7 @@
 		21985AD92238FAD0006AF957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21985AD82238FAD0006AF957 /* Assets.xcassets */; };
 		21985ADC2238FAD0006AF957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21985ADA2238FAD0006AF957 /* LaunchScreen.storyboard */; };
 		21985ADF2238FAD0006AF957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21985ADE2238FAD0006AF957 /* main.m */; };
+		21985AE72238FB32006AF957 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21985AE92238FB32006AF957 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		21985ADB2238FAD0006AF957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21985ADD2238FAD0006AF957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21985ADE2238FAD0006AF957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21985AE82238FB32006AF957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21985AEA2238FB93006AF957 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		21DA3815223A459500CDE112 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		21985AC32238FACF006AF957 = {
 			isa = PBXGroup;
 			children = (
+				21DA3815223A459500CDE112 /* README.md */,
 				21985ACE2238FACF006AF957 /* NotchIconDemo */,
 				21985ACD2238FACF006AF957 /* Products */,
 			);
@@ -67,6 +72,7 @@
 				21985ADA2238FAD0006AF957 /* LaunchScreen.storyboard */,
 				21985ADD2238FAD0006AF957 /* Info.plist */,
 				21985ADE2238FAD0006AF957 /* main.m */,
+				21985AE92238FB32006AF957 /* InfoPlist.strings */,
 			);
 			path = NotchIconDemo;
 			sourceTree = "<group>";
@@ -112,6 +118,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 21985AC32238FACF006AF957;
 			productRefGroup = 21985ACD2238FACF006AF957 /* Products */;
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21985ADC2238FAD0006AF957 /* LaunchScreen.storyboard in Resources */,
+				21985AE72238FB32006AF957 /* InfoPlist.strings in Resources */,
 				21985AD92238FAD0006AF957 /* Assets.xcassets in Resources */,
 				21985AD72238FACF006AF957 /* Main.storyboard in Resources */,
 			);
@@ -166,6 +174,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		21985AE92238FB32006AF957 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21985AE82238FB32006AF957 /* en */,
+				21985AEA2238FB93006AF957 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -173,6 +190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -232,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
